@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/nav_item_home"/>
+    <!--  android:icon="@drawable/draft"/>
+-->
+
+    <item android:title="Projects"
+        android:id="@+id/nav_item_inbox"/>
+       <!-- android:icon="@drawable/inbox"/>-->
+
+
+    <group android:id="@+id/group_settings_id">
+
+    <item android:title="JoinUs"
+        android:id="@+id/nav_item_sent"/>
+       <!-- android:icon="@drawable/sent"/>-->
+
+    <item android:title="About us"
+        android:id="@+id/nav_item_draft"/>
+      <!--  android:icon="@drawable/draft"/>
+-->
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:title="Career"/>
+               <!-- android:icon="@drawable/spam"/>-->
+            <item
+                android:title="Contact us"/>
+               <!-- android:icon="@drawable/bin"/>-->
+        </menu>
+    </item>
+
+    <!--<group android:id="@+id/group_settings_id">
+
+        <item android:title="Settings"/>
+          &lt;!&ndash;  android:icon="@drawable/settings"/>&ndash;&gt;
+        <item android:title="Help"/>
+&lt;!&ndash;            android:icon="@drawable/help"/>&ndash;&gt;
+    </group>-->
+
+
+</menu>
